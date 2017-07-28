@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+LNG=$(/home/nik/.i3/bin/xkblayout-state print %s | awk '{print toupper($0)}')
+echo "[ ${LNG} ]"
